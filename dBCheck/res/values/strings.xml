@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">\t dBCheck</string>
+    <string name="menu_info">Info</string>
+    <string name="average_value"></string>
+    <string name="dBValue"></string>
+    <string name="dBValueBackground"></string>
+    <string name="changeView"></string>
+    <string name="resetButton"></string>
+    <string name="borderBottom"></string>
+    <string name="chart"></string>
+    <string name="examples"></string>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#2ec6ef</color>
+    <color name="grey">#8f8f8f</color>
+
+    <string name="back"></string>
+    <string name="title_activity_info">\t Info</string>
+    <string name="header1">dBCheck</string>
+    <string name="header1.1">Bedienung</string>
+    <string name="header1.2">Schalldruckpegel</string>
+    <string name="header1.3">Mikrofonkapazität</string>
+    <string name="header1.4">Über dBCheck</string>
+    <string name="handling">dBCheck misst die Lautstärke ihrer Umgebung unter Verwendung
+        des Mikrofons ihres Smartphones.\nDie Messwerte werden in Dezibel ausgegeben und können 
+        innerhalb eines Graphen oder einer Skala betrachtet werden.\nZum Wechseln der Ansicht
+        nutzen Sie den Auge-Button. Den Mittelwert können Sie über den Reset-Button zurücksetzen.  </string>
+    <string name="device">Im Allgemeinen ist das Mikrofon eines Smartphones auf die menschliche 
+        Stimme ausgerichtet, sodass der Maximalwert begrenzt ist. Durch unterschiedliche Mikrofonkapazitäten und Sensibilitäten können Modellabweichungen auftreten.</string>
+    <string name="dB_general">
+        Der Schalldruckpegel ist eine zentrale Größe in der Akustik und dient als logarithmisches Maß zur Beschreibung der Stärke 
+        eines Schallereignisses.
+        Eine Erhöhung oder Senkung des Pegels wird vom Menschen als Lautstärkeänderung wahrgenommen.
+        \n\nBeispielhafte Zuordnungen von Schalldruckpegel und entsprechender Lautstärkeempfindung sind:
+        </string>
+        <string name="about">Projektarbeit von Inga Hogrefe und Madita Kirschbaum (2014) </string>
+
+</resources>

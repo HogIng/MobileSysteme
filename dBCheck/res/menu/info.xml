@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.satest.InfoActivity" >
+
+<item
+        android:id="@+id/info_back_icon"
+        android:icon="@drawable/info_back_icon"
+        android:orderInCategory="1"
+        android:title="@string/back"
+        app:showAsAction="always"/>
+
+</menu>

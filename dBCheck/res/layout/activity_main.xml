@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="top"
+    tools:context="com.example.dbcheck.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <com.example.dbcheck.ProBar
+        android:id="@+id/proBar1"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="66dp"
+        android:layout_height="240dp"
+        android:layout_alignBottom="@+id/chart"
+        android:layout_alignLeft="@+id/chart"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="1dp"
+        android:max="240"
+        android:progressDrawable="@drawable/myprobar" />
+
+    <ImageView
+        android:id="@+id/chart"
+        android:layout_width="266dp"
+        android:layout_height="260dp"
+        android:layout_above="@+id/dBValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/chart"
+        android:src="@drawable/chart" />
+
+    <ImageView
+        android:id="@+id/borderBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/borderBottom"
+        android:src="@drawable/border" />
+
+    <TextView
+        android:id="@+id/average_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="45dp"
+        android:text="@string/average_value"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/grey"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/subLayout"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/dBValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical" />
+
+    <ImageButton
+        android:id="@+id/resetButton"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="121dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/resetButton"
+        android:src="@drawable/reset_average_button" />
+
+    <ImageButton
+        android:id="@+id/changeButton"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="6dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/changeView"
+        android:src="@drawable/change_view_button"
+       />
+    
+     
+
+    <TextView
+        android:id="@+id/dBValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="@string/dBValue"
+        android:textColor="@color/blue"
+        android:textSize="50sp" />
+
+</RelativeLayout>

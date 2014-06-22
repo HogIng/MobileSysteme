@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/info_icon"
+        android:orderInCategory="1"
+        android:title="@string/menu_info"
+        app:showAsAction="always"/>
+
+</menu>
